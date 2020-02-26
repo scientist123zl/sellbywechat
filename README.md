@@ -1,6 +1,17 @@
-#微信点餐系统
+##微信点餐系统
 
-### 微信点餐数据库
+```
+前端Vue
+后端Springboot
+   数据库方面 springboot+JPA
+   缓存方面   springboot+Redis
+   消息推送   WebSocket
+```
+![功能分析](images/1.jpg)
+![关系图](images/2.jpg)
+
+#### 微信点餐数据库
+![数据库表](images/3.jpg)
 ```sql
 -- 类目
 create table `product_category` (
